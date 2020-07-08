@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+h1{
+font-size: 50px;
+display: flex;
+justify-content: center;
+color: red;
+font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  background: url("https://duluthcider.com/wp-content/uploads/2018/12/57f5fa649b7683b5ee4999242e873e63.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 20px;
+}
+
+.webName {
+  display: flex;
+  flex-direction: column;  
+}
+
+.webLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ipts {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.button {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  color: red;
+}
